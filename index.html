@@ -23,20 +23,22 @@
   <body>
     <!-- Шапка сайту -->
     <header class="page-header">
-      <div class="container">
-        <nav>
+      <div class="container main">
+        <nav class="nav-main">
           <!-- Лого хедер -->
-          <a href="./index.html" class="logo">Web<span class="header-studio">Studio</span> </a>
+          <a class="logo" href="./index.html">Web<span class="header-studio">Studio</span> </a>
           <!-- Навігація на інші сторінки -->
           <ul class="nav-site list">
-            <li><a href="./index.html" class="link current">Студія</a></li>
-            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li><a href="" class="link">Контакти</a></li>
+            <li class="item"><a href="./index.html" class="link current">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="nav-contacts list">
-          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
@@ -49,29 +51,28 @@
           <button type="button" class="button primary">Замовити послугу</button>
         </div>
       </section>
-
       <!-- Особливості -->
       <section class="section features">
-        <div class="container">
-          <h2 class="section-title" hidden="true">Особливості</h2>
+        <div class="container main-features">
+          <h2 class="section-title visually-hidden">Особливості</h2>
           <ul class="feature-list list">
-            <li>
+            <li class="feature-element">
               <h3 class="title">Увага до деталей</h3>
               <p class="text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li>
+            <li class="feature-element">
               <h3 class="title">Пунктуальність</h3>
               <p class="text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="feature-element">
               <h3 class="title">Планування</h3>
               <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
-            <li>
+            <li class="feature-element">
               <h3 class="title">Сучасні технології</h3>
               <p class="text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -80,13 +81,12 @@
           </ul>
         </div>
       </section>
-
       <!-- Чим ми займаємося -->
       <section class="section potfolio">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list">
-            <li>
+          <ul class="portfolio-list list">
+            <li class="potfolio-element">
               <img
                 src="./images/box1.jpg"
                 alt="Розробка десктопного додатку"
@@ -94,7 +94,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="potfolio-element">
               <img
                 src="./images/box2.jpg"
                 alt="Розробка додатку для мобільного телефону"
@@ -102,40 +102,39 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="potfolio-element">
               <img src="./images/box3.jpg" alt="Розробка дизайну" width="370" height="294" />
             </li>
           </ul>
         </div>
       </section>
-
       <!-- Наша команда -->
       <section class="section teams">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list list">
-            <li>
+            <li class="team-element">
               <img src="./images/team1.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
               <div class="container-team">
                 <h3 class="title">Ігор Дем'яненко</h3>
                 <p lang="en" class="text">Product Designer</p>
               </div>
             </li>
-            <li>
+            <li class="team-element">
               <img src="./images/team2.jpg" alt="Ольга Рєпіна" width="270" height="260" />
               <div class="container-team">
                 <h3 class="title">Ольга Рєпіна</h3>
                 <p lang="en" class="text">Frontend Developer</p>
               </div>
             </li>
-            <li>
+            <li class="team-element">
               <img src="./images/team3.jpg" alt="Микола Тарасов" width="270" height="260" />
               <div class="container-team">
                 <h3 class="title">Микола Тарасов</h3>
                 <p lang="en" class="text">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="team-element">
               <img src="./images/team4.jpg" alt="Михайло Єрмаков" width="270" height="260" />
               <div class="container-team">
                 <h3 class="title">Михайло Єрмаков</h3>
@@ -148,9 +147,9 @@
     </main>
     <!-- Футер -->
     <footer class="page-footer">
-      <div class="container">
+      <div class="container main-footer">
         <!-- Лого футер -->
-        <a href="./index.html" class="logo">Web<span class="footer-studio">Studio</span> </a>
+        <a class="logo footer" href="./index.html">Web<span class="footer-studio">Studio</span> </a>
         <!-- Адреса -->
         <address>
           <ul class="footer list">
