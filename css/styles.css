@@ -209,7 +209,7 @@ img {
   background-color: #2f303a;
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 /* Герой  */
 .hero-title {
@@ -310,16 +310,16 @@ img {
 }
 
 /* Футер */
-.main-footer {
+.page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--footer-background-color);
 }
 .logo.footer {
   display: block;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-bottom: 20px;
-}
-.page-footer {
-  background-color: var(--footer-background-color);
 }
 .footer .location-link {
   color: var(--white-color);
@@ -332,6 +332,9 @@ img {
   color: var(--accent-color);
 }
 .footer .contact-link {
+  display: block;
+  margin-top: 9px;
+  margin-bottom: 0;
   color: var(--footer-text-color);
   font-style: normal;
   line-height: 1.17;
@@ -347,9 +350,6 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.container-filter {
-  margin-bottom: 34px;
-}
 .container-work {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -360,7 +360,7 @@ img {
   border-bottom: 1px solid #eeeeee;
 }
 .main-filter {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-list {
   display: flex;
