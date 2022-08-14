@@ -255,9 +255,12 @@ img {
   margin-top: 0;
   margin-bottom: 10px;
 
-  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  color: var(--secondary-text-color);
 }
 
 /* Чим ми займаємося */
@@ -299,6 +302,7 @@ img {
   margin-right: 30px;
 }
 .team-list .text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -321,10 +325,17 @@ img {
   padding-bottom: 0;
   margin-bottom: 20px;
 }
+.footer .item:not(:last-child) {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
 .footer .location-link {
-  color: var(--white-color);
+  display: block;
+  
+  font-weight: 400;
   font-style: normal;
-  line-height: 1.17;
+
+  color: var(--white-color);
   text-decoration: none;
 }
 .footer .location-link:hover,
@@ -333,11 +344,11 @@ img {
 }
 .footer .contact-link {
   display: block;
-  margin-top: 9px;
-  margin-bottom: 0;
-  color: var(--footer-text-color);
+
   font-style: normal;
-  line-height: 1.17;
+  font-weight: 400;
+
+  color: var(--footer-text-color);
   text-decoration: none;
 }
 .footer .contact-link:hover,
@@ -359,10 +370,9 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-.main-filter {
-  margin-bottom: 50px;
-}
+
 .filter-list {
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -384,12 +394,14 @@ img {
   margin-top: 0;
   margin-bottom: 4px;
   color: var(--secondary-text-color);
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .work-list .text {
   color: var(--primary-text-color);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 }
